@@ -1,10 +1,10 @@
 
 public class CSnake
 {
-	CPoint2D 	pos;				// 蛇当前位置
-	int			direction;			// 蛇运动方向
-	int			bodyLen;			// 蛇当前长度
-	CPoint2D[]	body;				// 蛇身(包含所有蛇身所在的坐标点)
+	CPoint2D 	pos;
+	int			direction;	
+	int			bodyLen;		
+	CPoint2D[]	body;		
 
 	CSnake() {
 		pos = new CPoint2D(0, 0);
