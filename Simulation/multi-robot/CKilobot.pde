@@ -1,4 +1,3 @@
-
 class CKilobot{
   int        ID;
   PVector    pos;
@@ -130,7 +129,7 @@ class CKilobot{
   }
   
   void controller() {
-    //LED = color(255, 0, 0);
+    LED = color(255, 0, 0);
   }
   
 }

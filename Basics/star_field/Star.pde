@@ -1,24 +1,36 @@
 class Star{
-  float x = random(-width, width);
-  float y = random(-height, height);
-  float z = random(0, 10);
+  // parameters:
+  int Z_MAX = 10;
+  int Z_MIN = 0;
+  float RADIUS_MAX = 5;
+  float RADIUS_MIN = 0.5;
+  float SPEED = 0.02;
   
+  float x = random(-width/2, width/2);
+  float y = random(-height/2, height/2);
+  float z = random(Z_MIN, Z_MAX);
   float r;
+  float tail_factor = 1.0;
+  float speed = SPEED;
   
   void update() {
-    z = z - 0.1;    
+    z = z - speed;
+    
     if (z < 0) {
-      z = random(0, 10);
+      x = random(-width/2, width/2);
+      y = random(-height/2, height/2);
+      z = random(Z_MIN, Z_MAX);   // respawn a new star
     }
   }
   
   void show() {
-    stroke(250);
-    r = map(z, 0, 10, 5, 0.1);
+    r = map(z, Z_MIN, Z_MAX, RADIUS_MAX, RADIUS_MIN);
+    float f = map(z, Z_MIN, Z_MAX, 255, 200);
+    fill(f);
+    noStroke();
     ellipse(x/z, y/z, r, r);
-    stroke(60);
-    line(x/z,y/z, x/(z * 1.1), y/(z * 1.1));
+    // the star tail (optional):
+    // stroke(100);
+    // line(x/z, y/z, x/(z*tail_factor), y/(z*tail_factor));
   }
-
-
 }

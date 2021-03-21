@@ -79,7 +79,3 @@ void draw() {
   fill(0);
   //text("Click mouse to attract boxes",20,20);
 }
-
-
-
-

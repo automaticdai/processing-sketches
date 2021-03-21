@@ -59,17 +59,17 @@ Credits: Some of these are followed tutorials from others, mostly Daniel Shiffma
 
 
 ## Simulation
-| Name            | Description                          | Dependencies | Note |
-| --------------- | ------------------------------------ | ------------ | ---- |
-| robot_simulator | 2D robot manipulator                 |              |      |
-| waterwave       | waterwave (sin wave propagate)       |              |      |
-| raindrop        | rain drop falling                    |              |      |
-| pendulum-sim    | pendulum simulation                  |              |      |
-| kilobot         | Kilobot simulator                    |              |      |
-| Box2D           | Box2D test                           | Box2D        |      |
-| gnn             | Genetic Algorithm and Neural Network |              |      |
-| BouncyBubbles   | Bouncy bubbles simulation            |              |      |
-| liquid          | Liquid simulation                    |              |      |
+| Name          | Description                          | Dependencies | Note |
+| ------------- | ------------------------------------ | ------------ | ---- |
+| robot-arm     | 2D robot manipulator                 |              |      |
+| waterwave     | waterwave (sin wave propagate)       |              |      |
+| raindrop      | rain drop falling                    |              |      |
+| pendulum-sim  | pendulum simulation                  |              |      |
+| multi-robot   | Multi-robot simulator                |              |      |
+| Box2D         | Box2D test                           | Box2D        |      |
+| gnn           | Genetic Algorithm and Neural Network |              |      |
+| BouncyBubbles | Bouncy bubbles simulation            |              |      |
+| liquid        | Liquid simulation                    |              |      |
 
 
 ## Computer Vision
