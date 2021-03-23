@@ -1,7 +1,7 @@
 # Processing Sketches
-This repository is a collection of my Processing sketches. Processing is a programming environment for interactive art. A few of these require dependencies to run and some need hardware (including Webcam and Kinect). I have clearly stated in the list.
+This repository is a collection of my Processing sketches. I don't like too many repos so I put everything together. Processing is a programming environment for interactive art. A few of these require dependencies to run and some need hardware (including webcam and Kinect). I have clearly stated in the note.
 
-Credits: Some of these are followed tutorials from others, mostly Daniel Shiffman.
+*Credits*: Some of these are followed tutorials or examples from others, mostly Daniel Shiffman.
 
 
 ## Basics
@@ -30,15 +30,15 @@ Credits: Some of these are followed tutorials from others, mostly Daniel Shiffma
 | ---------------- | ------------------------------------------ | ---------- | ---- |
 | chaostime        | chaos time                                 |            |      |
 | mind             | tree of mind                               |            |      |
-| mind2            | tree of mind v2                            |            |      |
+| mind2            | tree of mind (v2)                          |            |      |
 | Particles        | firework using particles                   |            |      |
 | rainbowflow      | rainbow using Particles                    |            |      |
 | mesh_network     | dynamic mesh network                       |            |      |
 | mesh_triangle    | mesh to generate terrain with Perlin noise |            |      |
 | tree_recursive2  | random generate binary trees               |            |      |
 | beats            | music histogram                            | Minim      |      |
+| beats2           | music histogram (v2)                       | Minim      |      |
 | lotus_generative | generate lotus using parametric lines      |            |      |
-| beats2           | music histogram                            | Minim      |      |
 | image_generative | generate images using mask and particles   |            |      |
 | fireworks        | fireworks                                  |            |      |
 | Metaball_rolling | Metaball rolling                           |            |      |
@@ -49,9 +49,7 @@ Credits: Some of these are followed tutorials from others, mostly Daniel Shiffma
 | ----- | -------------- | ---------- | ------------- |
 | SNAKE | The Snake Game |            | Not finished. |
 
-
-
-## Hardware
+## Hardware Interaction
 | Name             | Description                                | Dependency | Note |
 |------------------|--------------------------------------------|------------|------------|
 | SerialPort       | serialport communication                   |            |            |
@@ -61,11 +59,11 @@ Credits: Some of these are followed tutorials from others, mostly Daniel Shiffma
 ## Simulation
 | Name          | Description                          | Dependencies | Note |
 | ------------- | ------------------------------------ | ------------ | ---- |
-| robot-arm     | 2D robot manipulator                 |              |      |
+| robot_arm     | 2D robot manipulator                 |              |      |
 | waterwave     | waterwave (sin wave propagate)       |              |      |
 | raindrop      | rain drop falling                    |              |      |
-| pendulum-sim  | pendulum simulation                  |              |      |
-| multi-robot   | Multi-robot simulator                |              |      |
+| pendulum_sim  | pendulum simulation                  |              |      |
+| multi_robot   | Multi-robot simulator                |              |      |
 | Box2D         | Box2D test                           | Box2D        |      |
 | gnn           | Genetic Algorithm and Neural Network |              |      |
 | BouncyBubbles | Bouncy bubbles simulation            |              |      |
@@ -73,12 +71,12 @@ Credits: Some of these are followed tutorials from others, mostly Daniel Shiffma
 
 
 ## Computer Vision
-| Name           | Description                | Dependencies   | Note |
-| -------------- | -------------------------- | -------------- | ---- |
-| Camera         | capture from a web cam     | webcam         |      |
-| hands3D        | tracking hand              | OpenNI, Kinect |      |
-| openni         | skeleton tracking          | OpenNI, Kinect |      |
-| Myron_tracking | Blog tracking using JMyton | JMyton         |      |
+| Name           | Description                | Dependencies | Note                     |
+| -------------- | -------------------------- | ------------ | ------------------------ |
+| Camera         | capture from a web cam     |              | Need a webcamera to run. |
+| hands3D        | tracking hand              | OpenNI       | Need a Kinect 1 to run.  |
+| openni         | skeleton tracking          | OpenNI       | Need a Kinect 1 to run.  |
+| Myron_tracking | Blog tracking using JMyton | JMyton       |                          |
 
 
 ## Specials
@@ -86,3 +84,4 @@ Credits: Some of these are followed tutorials from others, mostly Daniel Shiffma
 | ----- | ------------------------ | ---------- | ---- |
 | heart | heart                    | Box2D      |      |
 | elx   | a talkative and cute elf |            |      |
+
