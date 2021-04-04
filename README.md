@@ -1,76 +1,90 @@
 # Processing Sketches
-This repository is a collection of my Processing sketches. I don't like too many repos so I put everything together. Processing is a programming environment for interactive art. A few of these require dependencies to run and some need hardware (including webcam and Kinect). I have clearly stated in the note.
+This repository is a collection of my Processing sketches. I don't want to have too many repos so I put everything together. Processing is a programming environment for interactive art. A few of these require dependencies to run and some need hardware (including webcam and Kinect). I have clearly stated in the note.
 
-*Credits*: Some of these are followed tutorials or examples from others, mostly Daniel Shiffman.
+*Credits*: Some of these are followed tutorials or examples from others, mostly by *Daniel Shiffman* and [OpenProcessing.org](openprocessing.org).
 
+## /Basics
 
-## Basics
-| Name             | Description                                  | Dependency | Note                            |
-| ---------------- | -------------------------------------------- | ---------- | ------------------------------- |
-| GettingStart     | some basic graphics in Processing            |            |                                 |
-| DrawRoute        | draw using mouse                             |            |                                 |
-| DataDisplay      | show point data                              |            |                                 |
-| mesh_rectangle   | mesh grids                                   |            |                                 |
-| plot_2d_gaussian | 2d gaussian                                  |            |                                 |
-| spiral           | spiral line                                  |            |                                 |
-| tree_recursive   | binary tree recursive                        |            |                                 |
-| image_noise      | using PImage to generate 2D noise image      |            |                                 |
-| svg_test         | using Processing svg with a spinning bone    |            |                                 |
-| star_field       | star field                                   |            |                                 |
-| cube_split       | split cubs                                   |            |                                 |
-| chaotic          | chaotic function                             |            |                                 |
-| RandomWalker     | random move                                  |            | Example from The Nature of Code |
-| 2DNoise          | 2-dimension noise, e.g. for generating cloud |            | Example from The Nature of Code |
-| PerlinNoise      | Demonstrate Perlin noise                     |            |                                 |
-| Walker_Vector    | Walker following the mouse                   |            | Example from The Nature of Code |
+Most are for test and experimental purposes:
 
+| Name              | Description                                  | Dependency | Note                                                         |
+| ----------------- | -------------------------------------------- | ---------- | ------------------------------------------------------------ |
+| GettingStart      | some basic graphics in Processing            |            |                                                              |
+| DrawRoute         | draw lines using mouse                       |            |                                                              |
+| DataDisplay       | show point data                              |            |                                                              |
+| mesh_rectangle    | mesh grids (chess board)                     |            |                                                              |
+| plot_2d_gaussian  | 2d gaussian visualization                    |            |                                                              |
+| spiral            | spiral line (animation)                      |            |                                                              |
+| tree_recursive    | binary tree recursive                        |            |                                                              |
+| image_noise       | using PImage to generate 2D noise image      |            |                                                              |
+| svg_test          | using Processing svg with a spinning bone    |            |                                                              |
+| star_field        | star field                                   |            | [Improved version](https://github.com/automaticdai/processing-space-travelling) |
+| cube_split        | split cubs                                   |            |                                                              |
+| RandomWalker      | random move                                  |            | Example from The Nature of Code                              |
+| 2DNoise           | 2-dimension noise, e.g. for generating cloud |            | Example from The Nature of Code                              |
+| PerlinNoise       | Demonstrate Perlin noise                     |            |                                                              |
+| Walker_Vector     | Walker following the mouse                   |            | Example from The Nature of Code                              |
+| texture_vertex_2d | Apply transformation to a texture image      |            |                                                              |
 
-## Art
-| Name             | Description                                | Dependency | Note |
-| ---------------- | ------------------------------------------ | ---------- | ---- |
-| chaostime        | chaos time                                 |            |      |
-| mind             | tree of mind                               |            |      |
-| mind2            | tree of mind (v2)                          |            |      |
-| Particles        | firework using particles                   |            |      |
-| rainbowflow      | rainbow using Particles                    |            |      |
-| mesh_network     | dynamic mesh network                       |            |      |
-| mesh_triangle    | mesh to generate terrain with Perlin noise |            |      |
-| tree_recursive2  | random generate binary trees               |            |      |
-| beats            | music histogram                            | Minim      |      |
-| beats2           | music histogram (v2)                       | Minim      |      |
-| lotus_generative | generate lotus using parametric lines      |            |      |
-| image_generative | generate images using mask and particles   |            |      |
-| fireworks        | fireworks                                  |            |      |
-| Metaball_rolling | Metaball rolling                           |            |      |
+## /Arts
 
+Work that is self-contained and is ready for presentation:
 
-## Games
+| Name                  | Description                                     | Dependency | Note |
+| --------------------- | ----------------------------------------------- | ---------- | ---- |
+| chaostime             | chaos time                                      |            |      |
+| chaotic               | chaotic function                                |            |      |
+| mind                  | tree of mind                                    |            |      |
+| mind2                 | tree of mind (v2)                               |            |      |
+| Particles             | firework using particles                        |            |      |
+| rainbowflow           | rainbow generated using Particles and sin waves |            |      |
+| mesh_network          | dynamic mesh network                            |            |      |
+| mesh_triangle_terrain | mesh to generate terrain with Perlin noise      |            |      |
+| tree_recursive2       | random generate binary trees                    |            |      |
+| beats                 | music histogram                                 | Minim      |      |
+| beats2                | music histogram (v2)                            | Minim      |      |
+| lotus_generative      | generate lotus using parametric lines           |            |      |
+| image_generative      | generate images using mask and particles        |            |      |
+| fireworks             | fireworks                                       |            |      |
+| Metaball_rolling      | Metaball rolling                                |            |      |
+
+## /Games
+
+Games that are produced with Processing:
+
 | Name  | Description    | Dependency | Note          |
 | ----- | -------------- | ---------- | ------------- |
 | SNAKE | The Snake Game |            | Not finished. |
 
-## Hardware Interaction
+## /Hardware
+
+For interaction with hardware (e.g. Arduino and Raspberry Pi):
+
 | Name             | Description                                | Dependency | Note |
 |------------------|--------------------------------------------|------------|------------|
 | SerialPort       | serialport communication                   |            |            |
 | Ultrasonic       | send ultrasonic data to Processing through serialport   |||
 
+## /Simulation
 
-## Simulation
-| Name          | Description                          | Dependencies | Note |
-| ------------- | ------------------------------------ | ------------ | ---- |
-| robot_arm     | 2D robot manipulator                 |              |      |
-| waterwave     | waterwave (sin wave propagate)       |              |      |
-| raindrop      | rain drop falling                    |              |      |
-| pendulum_sim  | pendulum simulation                  |              |      |
-| multi_robot   | Multi-robot simulator                |              |      |
-| Box2D         | Box2D test                           | Box2D        |      |
-| gnn           | Genetic Algorithm and Neural Network |              |      |
-| BouncyBubbles | Bouncy bubbles simulation            |              |      |
-| liquid        | Liquid simulation                    |              |      |
+Involving physics and some magic:
 
+| Name          | Description                          | Dependencies | Note                                                         |
+| ------------- | ------------------------------------ | ------------ | ------------------------------------------------------------ |
+| robot_arm     | 2D robot manipulator                 |              |                                                              |
+| waterwave     | waterwave (sin wave propagate)       |              |                                                              |
+| raindrop      | rain drop falling                    |              |                                                              |
+| pendulum_sim  | pendulum simulation                  |              |                                                              |
+| multi_robot   | Multi-robot simulator                |              |                                                              |
+| Box2D         | Box2D test                           | Box2D        |                                                              |
+| gnn           | Genetic Algorithm and Neural Network |              | [Improved version](https://github.com/automaticdai/ga-optimized-nn-processing) |
+| BouncyBubbles | Bouncy bubbles simulation            |              |                                                              |
+| liquid_simu   | Liquid simulation                    |              |                                                              |
 
-## Computer Vision
+## /ComputerVision
+
+Involving computer vision and image sensors:
+
 | Name           | Description                | Dependencies | Note                     |
 | -------------- | -------------------------- | ------------ | ------------------------ |
 | Camera         | capture from a web cam     |              | Need a webcamera to run. |
@@ -78,8 +92,10 @@ This repository is a collection of my Processing sketches. I don't like too many
 | openni         | skeleton tracking          | OpenNI       | Need a Kinect 1 to run.  |
 | Myron_tracking | Blog tracking using JMyton | JMyton       |                          |
 
+## /Specials
 
-## Specials
+Special collections:
+
 | Name  | Description              | Dependency | Note |
 | ----- | ------------------------ | ---------- | ---- |
 | heart | heart                    | Box2D      |      |
