@@ -7,46 +7,48 @@ This repository is a collection of my Processing sketches. I don't want to have 
 
 Most are for test and experimental purposes:
 
-| Name              | Description                                  | Dependency | Note                                                         |
-| ----------------- | -------------------------------------------- | ---------- | ------------------------------------------------------------ |
-| GettingStart      | some basic graphics in Processing            |            |                                                              |
-| DrawRoute         | draw lines using mouse                       |            |                                                              |
-| DataDisplay       | show point data                              |            |                                                              |
-| mesh_rectangle    | mesh grids (chess board)                     |            |                                                              |
-| plot_2d_gaussian  | 2d gaussian visualization                    |            |                                                              |
-| spiral            | spiral line (animation)                      |            |                                                              |
-| tree_recursive    | binary tree recursive                        |            |                                                              |
-| image_noise       | using PImage to generate 2D noise image      |            |                                                              |
-| svg_test          | using Processing svg with a spinning bone    |            |                                                              |
-| star_field        | star field                                   |            | [Improved version](https://github.com/automaticdai/processing-space-travelling) |
-| cube_split        | split cubs                                   |            |                                                              |
-| RandomWalker      | random move                                  |            | Example from The Nature of Code                              |
-| 2DNoise           | 2-dimension noise, e.g. for generating cloud |            | Example from The Nature of Code                              |
-| PerlinNoise       | Demonstrate Perlin noise                     |            |                                                              |
-| Walker_Vector     | Walker following the mouse                   |            | Example from The Nature of Code                              |
-| texture_vertex_2d | Apply transformation to a texture image      |            |                                                              |
+| Name              | Description                                                  | Dependency | Note                                                         |
+| ----------------- | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
+| GettingStart      | some basic graphics in Processing                            |            |                                                              |
+| DrawRoute         | draw lines using mouse                                       |            |                                                              |
+| DataDisplay       | show point data                                              |            |                                                              |
+| mesh_rectangle    | mesh grids (chess board)                                     |            |                                                              |
+| plot_2d_gaussian  | 2d gaussian visualization                                    |            |                                                              |
+| spiral            | spiral line (animation)                                      |            |                                                              |
+| tree_recursive    | binary tree recursive                                        |            |                                                              |
+| tree_recursive2   | random generate binary trees with different shape parameters |            |                                                              |
+| image_noise       | using PImage to generate 2D noise image                      |            |                                                              |
+| svg_test          | using Processing svg with a spinning bone                    |            |                                                              |
+| star_field        | star field                                                   |            | [Improved version can be found here](https://github.com/automaticdai/processing-space-travelling) |
+| cube_split        | split cubs                                                   |            |                                                              |
+| RandomWalker      | random move                                                  |            | Example from The Nature of Code                              |
+| 2DNoise           | 2-dimension noise, e.g. for generating cloud                 |            | Example from The Nature of Code                              |
+| PerlinNoise       | Demonstrate Perlin noise                                     |            |                                                              |
+| Walker_Vector     | Walker following the mouse                                   |            | Example from The Nature of Code                              |
+| texture_vertex_2d | Apply transformation to a texture image                      |            |                                                              |
 
 ## /Arts
 
 Work that is self-contained and is ready for presentation:
 
-| Name                  | Description                                     | Dependency | Note |
-| --------------------- | ----------------------------------------------- | ---------- | ---- |
-| chaostime             | chaos time                                      |            |      |
-| chaotic               | chaotic function                                |            |      |
-| mind                  | tree of mind                                    |            |      |
-| mind2                 | tree of mind (v2)                               |            |      |
-| Particles             | firework using particles                        |            |      |
-| rainbowflow           | rainbow generated using Particles and sin waves |            |      |
-| mesh_network          | dynamic mesh network                            |            |      |
-| mesh_triangle_terrain | mesh to generate terrain with Perlin noise      |            |      |
-| tree_recursive2       | random generate binary trees                    |            |      |
-| beats                 | music histogram                                 | Minim      |      |
-| beats2                | music histogram (v2)                            | Minim      |      |
-| lotus_generative      | generate lotus using parametric lines           |            |      |
-| image_generative      | generate images using mask and particles        |            |      |
-| fireworks             | fireworks                                       |            |      |
-| Metaball_rolling      | Metaball rolling                                |            |      |
+| Name                   | Description                                     | Dependency | Note                 |
+| ---------------------- | ----------------------------------------------- | ---------- | -------------------- |
+| chaostime              | chaos time                                      |            |                      |
+| chaotic                | chaotic function (Lorenz)                       |            |                      |
+| mind                   | tree of mind                                    |            |                      |
+| mind2                  | tree of mind (v2)                               |            |                      |
+| Particles              | firework using particles                        |            |                      |
+| rainbowflow            | rainbow generated using Particles and sin waves |            |                      |
+| mesh_network           | dynamic mesh network                            |            |                      |
+| mesh_triangle_terrain  | mesh to generate terrain with Perlin noise      |            |                      |
+| beats                  | music histogram                                 | Minim      |                      |
+| beats2                 | music histogram (v2)                            | Minim      |                      |
+| lotus_generative       | generate lotus using parametric lines           |            |                      |
+| image_generative       | replicate a image using mask and particles      |            |                      |
+| image_generative_ascii | replicate a image using ascii                   |            |                      |
+| fireworks              | fireworks                                       |            | Tutorial from Daniel |
+| Metaball_rolling       | Metaball rolling                                |            | Tutorial from Daniel |
+| light_blob             | A Siri-like light blob effect.                  |            |                      |
 
 ## /Games
 
@@ -77,7 +79,7 @@ Involving physics and some magic:
 | pendulum_sim  | pendulum simulation                  |              |                                                              |
 | multi_robot   | Multi-robot simulator                |              |                                                              |
 | Box2D         | Box2D test                           | Box2D        |                                                              |
-| gnn           | Genetic Algorithm and Neural Network |              | [Improved version](https://github.com/automaticdai/ga-optimized-nn-processing) |
+| gnn           | Genetic Algorithm and Neural Network |              | [Improved version can be found here](https://github.com/automaticdai/ga-optimized-nn-processing) |
 | BouncyBubbles | Bouncy bubbles simulation            |              |                                                              |
 | liquid_simu   | Liquid simulation                    |              |                                                              |
 

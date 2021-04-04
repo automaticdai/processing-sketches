@@ -1,3 +1,7 @@
+// Xiaotian Dai
+// April 2021
+// Credit: the idea is from: The Light, https://openprocessing.org/sketch/839679
+
 float t = 0;
 
 ArrayList<Blob> blobs = new ArrayList<Blob>();
