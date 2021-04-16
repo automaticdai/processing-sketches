@@ -71,17 +71,18 @@ For interaction with hardware (e.g. Arduino and Raspberry Pi):
 
 Involving physics and some magic:
 
-| Name          | Description                          | Dependencies | Note                                                         |
-| ------------- | ------------------------------------ | ------------ | ------------------------------------------------------------ |
-| robot_arm     | 2D robot manipulator                 |              |                                                              |
-| waterwave     | waterwave (sin wave propagate)       |              |                                                              |
-| raindrop      | rain drop falling                    |              |                                                              |
-| pendulum_sim  | pendulum simulation                  |              |                                                              |
-| multi_robot   | Multi-robot simulator                |              |                                                              |
-| Box2D         | Box2D test                           | Box2D        |                                                              |
-| gnn           | Genetic Algorithm and Neural Network |              | [Improved version can be found here](https://github.com/automaticdai/ga-optimized-nn-processing) |
-| BouncyBubbles | Bouncy bubbles simulation            |              |                                                              |
-| liquid_simu   | Liquid simulation                    |              |                                                              |
+| Name              | Description                          | Dependencies | Note                                                         |
+| ----------------- | ------------------------------------ | ------------ | ------------------------------------------------------------ |
+| robot_arm         | 2D robot manipulator                 |              |                                                              |
+| robot_arm_inverse | Robot arm inverse kinematics         |              |                                                              |
+| waterwave         | waterwave (sin wave propagate)       |              |                                                              |
+| raindrop          | rain drop falling                    |              |                                                              |
+| pendulum_sim      | pendulum simulation                  |              |                                                              |
+| multi_robot       | Multi-robot simulator                |              |                                                              |
+| Box2D             | Box2D test                           | Box2D        |                                                              |
+| gnn               | Genetic Algorithm and Neural Network |              | [Improved version can be found here](https://github.com/automaticdai/ga-optimized-nn-processing) |
+| BouncyBubbles     | Bouncy bubbles simulation            |              |                                                              |
+| liquid_simu       | Liquid simulation                    |              |                                                              |
 
 ## /ComputerVision
 
