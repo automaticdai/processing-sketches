@@ -88,12 +88,13 @@ Involving physics and some magic:
 
 Involving computer vision and image sensors:
 
-| Name           | Description                | Dependencies | Note                     |
-| -------------- | -------------------------- | ------------ | ------------------------ |
-| Camera         | capture from a web cam     |              | Need a webcamera to run. |
-| hands3D        | tracking hand              | OpenNI       | Need a Kinect 1 to run.  |
-| openni         | skeleton tracking          | OpenNI       | Need a Kinect 1 to run.  |
-| Myron_tracking | Blog tracking using JMyton | JMyton       |                          |
+| Name           | Description                    | Dependencies               | Note                      |
+| -------------- | ------------------------------ | -------------------------- | ------------------------- |
+| Camera         | capture from a web cam         |                            | Need a webcamera to run.  |
+| hands3D        | tracking hand                  | OpenNI                     | Need a Kinect 1 to run.   |
+| openni         | skeleton tracking              | OpenNI                     | Need a Kinect 1 to run.   |
+| Myron_tracking | Blog tracking using JMyton     | JMyton                     |                           |
+| leap_motion    | Example code to use LeapMotion | Leap Motion for Processing | Need a Leap Motion to run |
 
 ## /Specials
 
