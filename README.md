@@ -22,7 +22,7 @@ Most are for test and experimental purposes:
 | star_field        | star field                                                   |            | [Improved version can be found here](https://github.com/automaticdai/processing-space-travelling) |
 | cube_split        | split cubs                                                   |            |                                                              |
 | RandomWalker      | random move                                                  |            | Example from The Nature of Code                              |
-| 2DNoise           | 2-dimension noise, e.g. for generating cloud                 |            | Example from The Nature of Code                              |
+| Noise2D           | 2-dimension noise, e.g. for generating cloud                 |            | Example from The Nature of Code                              |
 | PerlinNoise       | Demonstrate Perlin noise                                     |            |                                                              |
 | Walker_Vector     | Walker following the mouse                                   |            | Example from The Nature of Code                              |
 | texture_vertex_2d | Apply transformation to a texture image                      |            |                                                              |

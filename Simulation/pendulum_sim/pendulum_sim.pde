@@ -1,7 +1,8 @@
-Pendulum p = new Pendulum();
+Pendulum p;
 
 void setup() {
-  size(800, 600);
+  size(600, 400);
+  p = new Pendulum();
 }
 
 

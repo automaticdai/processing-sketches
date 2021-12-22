@@ -1,5 +1,5 @@
 class Pendulum {
-  float x = 800/2;
+  float x = width/2;
   float y = 0;
   float l = 200;
   float angle = PI/4;

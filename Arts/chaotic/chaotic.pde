@@ -2,7 +2,7 @@ float x, y, z, px, py, pz, sigma, rhy, beta;
 
 void setup() {
   
-  size(800, 800);
+  size(400, 400);
   background(255);
   
   x = 1;

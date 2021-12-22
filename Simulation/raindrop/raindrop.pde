@@ -2,11 +2,11 @@ drop[] d;
 
 void setup(){
   frameRate(60);
-  size(1280,960);
+  size(600,400);
   //fullScreen();
   //smooth(4);
   
-  d = new drop[500];
+  d = new drop[800];
   for (int i = 0; i < d.length; i++) {
     d[i] = new drop();
   }

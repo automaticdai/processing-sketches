@@ -1,4 +1,4 @@
-int numObj = 200;
+int numObj = 100;
 
 float[] x = new float[numObj];
 float[] y = new float[numObj];
@@ -9,7 +9,7 @@ float[] speedY = new float[numObj];
 
 void setup(){
   
-  size(800, 400, P2D);
+  size(400, 400, P2D);
   background(0);
   smooth();
   //blendMode(ADD);
@@ -51,6 +51,7 @@ void draw(){
       speedY[i] *= -1; 
     }
     // draw point
+    stroke(230, 50, 140, 100);
     strokeWeight(r[i]);
     point(x[i], y[i]);
     

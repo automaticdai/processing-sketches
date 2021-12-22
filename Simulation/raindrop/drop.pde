@@ -1,7 +1,7 @@
 class drop {
   float x = random(-width, width);
   float y = random(-500, -300);
-  float x_speed = random(2, 3);
+  float x_speed = random(1, 2);
   float y_speed = random(10, 20);
   
   void update(){
@@ -12,7 +12,7 @@ class drop {
     // if out of screen, regenerate
     if (y > height) {
       x = random(-width, width);
-      y = random(-300, -100);
+      y = random(-200, -100);
       y_speed = random(10, 20);
     }
   }

@@ -1,5 +1,5 @@
 
-public final int KILO_NUM = 100;
+public final int KILO_NUM = 50;
 
 CSimuWorld world = new CSimuWorld();
 
